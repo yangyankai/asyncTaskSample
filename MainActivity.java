@@ -50,7 +50,7 @@ public class MainActivity extends Activity implements View.OnClickListener
 		protected void onPreExecute()
 		{
 //			super.onPreExecute();
-//			progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);// ÉèÖÃË®Æ½½ø¶ÈÌõ
+//			progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);// è®¾ç½®æ°´å¹³è¿›åº¦æ¡
 			progressDialog.show();
 
 		}
@@ -85,7 +85,8 @@ public class MainActivity extends Activity implements View.OnClickListener
 
 
 
-		//  result µÄÈ¡ÖµÎª   doInBackground   µÄ·µ»ØÖµ
+		//  result çš„å–å€¼ä¸º   doInBackground   çš„è¿”å›å€¼
+		// UI çº¿ç¨‹ï¼Œå¯å¯¹UIè¿›è¡Œæ›´æ–°
 		@Override
 		protected void onPostExecute(Boolean result)
 		{
